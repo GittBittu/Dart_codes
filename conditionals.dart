@@ -17,6 +17,6 @@ void main(){
   print("$smallnumber is smaller");
 
   String name="Bittu";
-  String toprint=name?? "New user";
+  String? toprint=name?? "New user ";
   print(toprint);
 }
