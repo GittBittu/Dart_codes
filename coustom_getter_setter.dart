@@ -1,3 +1,4 @@
+import 'dart:ffi';
 void main() {
   var student1=student();
   student1.name="Budhaditya";          //calling defalut setter to set value
