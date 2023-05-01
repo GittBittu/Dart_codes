@@ -1,0 +1,30 @@
+void main() {
+  var list1=[10,20,30,40,50];
+  list1.add(60);
+  print("6th element is ${list1[5]}");
+  print("all the elements of list1 are: $list1");
+  var list2=[];
+  list2.add("Bittu");
+  list2.addAll(list1);
+  list2.add("Akash");
+  print("all the elements of list2 are: $list2");
+  var list3=[90,80,70,60,50];
+  print("before insertion: $list3");
+  list3.insert(3,20);
+  print("after insertion: $list3");
+  var list4=[11,22,33,44,55,66];
+  print("before insertall: $list4");
+  list4.insertAll(2,list1);
+  print("after insertall: $list4");
+  var list5=[12,23,34,54,56,67];
+  print("before update: $list5");
+  list5[3]=45;
+  print("after update: $list5");
+  print("before replacerange: $list5");
+  list5.replaceRange(0,3,[1,2,3,4]);
+  print("after replacerange: $list5");
+  print("before remove: $list5");
+  list5.remove(45);
+  print("after remove: $list5");
+  print("length: ${list5.length}");
+}
