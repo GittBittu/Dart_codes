@@ -19,4 +19,12 @@ void main(){
   String name="Bittu";
   String? toprint=name?? "New user ";
   print(toprint);
+
+  int aa=55;
+  int bb=66;
+  if(aa>40 && bb>40) {
+    print('both are true');
+  }else{
+    print('atleast one is false');
+  }
 }
